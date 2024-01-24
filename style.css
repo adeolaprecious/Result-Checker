@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+#body{
+    background-color: hotpink;
+}
+#box{
+    border:  2px solid royalblue;
+    border-radius: 70px;
+    height: 300px;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 140px;
+    background-color: hotpink;
+    box-shadow: 50px 5px 50px 50px blue;  
+      
+}
+.check{
+    font-family: monospace;
+    color:royalblue;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.when{
+  text-align: center;
+  margin-top: 40px;
+  font-family: fantasy;
+  font-size: 50px;
+  color: hotpink;
+  animation: when 10s linear infinite;
+}
+.div{
+   border:  2px solid blue;
+   height: 10px;
+   width: 40px;
+   margin-left: 400px;
+   animation: div 10s linear infinite;
+}
+@keyframes div {
+    0%{
+     transform: translateY(100px);   
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
+.div1{
+    border:  2px solid palevioletred;
+    height: 10px;
+    width: 40px;
+    margin-left: 900px;
+    animation: div1 10s linear infinite;
+}
+@keyframes div1 {
+    0%{
+     transform: translateY(100px);   
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
+.div2{
+    border:  2px solid blue;
+    height: 10px;
+    width: 40px;
+    margin-left: 300px;
+    animation: div2 10s linear infinite;
+}
+@keyframes div2 {
+    0%{
+     transform: translateY(-100px);   
+    }
+    100%{
+        transform: translateY(300px);
+    }
+}
+.div3{
+    border:  2px solid palevioletred;
+    height: 10px;
+    width: 40px;
+    margin-left: 850px;
+    animation: div3 10s linear infinite;
+}
+.div4{
+    border:  2px solid palevioletred;
+    height: 10px;
+    width: 40px;
+    margin-left: 950px;
+    animation: div4 10s linear infinite;
+}
+.div5{
+    border:  2px solid palevioletred;
+    background-color: aqua;
+    height: 10px;
+    width: 40px;
+    margin-left: 450px;
+    animation: div4 10s linear infinite;
+}
+.div6{
+    border:  2px solid blue;
+    height: 10px;
+    width: 40px;
+    margin-left: 250px;
+    animation: div4 10s linear infinite;
+}
+@keyframes div6 {
+    0%{
+     transform: translateY(-100%);   
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}  
+@keyframes div5 {
+    0%{
+     transform: translateX(-100px);   
+    }
+    100%{
+        transform: translateX(300px);
+    }
+}
+@keyframes div4 {
+    0%{
+     transform: translateY(-100px);   
+    }
+    100%{
+        transform: translateY(300px);
+    }
+}
+@keyframes div3 {
+    0%{
+     transform: translateY(-100px);   
+    }
+    100%{
+        transform: translateY(300px);
+    }
+}
+@media screen  and (max-width:475px){
+    #box{
+        width: 200px;
+        margin-left: 10px;
+        padding-left: 50px;
+        justify-content: center;
+        display: block;
+        box-shadow: 20px 5px 20px 20px blue;  
+    }
+}
+@media screen and (min-width:475px) and (max-width:992) {
+    #box{
+      margin-top: 900px;
+    } 
+}
+
